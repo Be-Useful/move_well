@@ -1,7 +1,7 @@
 import React from 'react';
-import { FaFacebookF, FaTwitter, FaInstagram, FaLinkedinIn, FaEnvelope, FaGlobe, FaLink, FaExclamationTriangle, FaHome, FaInfoCircle, FaCog, FaGithub } from 'react-icons/fa';
+import { FaTwitter, FaInstagram, FaLinkedinIn, FaEnvelope, FaGlobe, FaLink, FaExclamationTriangle, FaHome, FaInfoCircle, FaCog, FaGithub } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
-import { Box, Typography, Button, Grid, IconButton } from '@mui/material';
+import { Box, Typography, Button, Grid } from '@mui/material';
 
 const Footer = () => {
   const handleReportIssue = () => {
